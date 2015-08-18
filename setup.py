@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 import sys
 
-execfile('yas3fs/_version.py')
+from yas3fs import __version__
 
 requires = ['setuptools>=2.2', 'boto>=2.25.0', 'fusepy>=2.0.2']
 
